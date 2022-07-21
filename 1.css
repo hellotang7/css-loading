@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#logo {
+  border: 1px solid green;
+  height: 140px;
+  width: 140px;
+}
+.loading {
+  margin-top: 50px;
+}
+#a,
+#b {
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+}
+#a {
+  top: 0;
+  left: 0;
+}
+#b {
+  right: 0;
+  bottom: 0;
+}
